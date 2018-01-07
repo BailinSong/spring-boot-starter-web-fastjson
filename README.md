@@ -1,12 +1,12 @@
 # Spring boot web fastjson
 ## 描述 Description
-* 使用 Fastjson 替换原默认 Jackson 作为 Http 请求与返回的 序列化工具类
+* 使用 Fastjson 替换原默认 Jackson 作为 Http 请求与返回的 序列化工具类。<br>
 Use Fastjson to replace the serialized utility class that was originally default Jackson as Http request and return.
 
-* 使用Spring auto configuration 机制,你可以讲此包添加入Maven依赖即可完成自动替换，无需对现有代码进行更改。
-Using the Spring auto configuration mechanism, you can say that this package adds Maven dependencies to automate the replacement without having to make changes to the existing code.
+* 使用Spring auto configuration 机制,你可以将此包添加入Maven依赖即可完成自动替换，无需对现有代码进行更改。<br>
+Using the Spring auto configuration mechanism, you can add this package to Maven dependencies to complete automatic substitution without having to make changes to existing code.
 
-* FastJson默认使用UTF-8字符集进行编码，如需要修改可以在Application配置中添加相关定义。
+* FastJson默认使用UTF-8字符集进行编码，如需要修改可以在Application配置中添加相关定义。<br>
 Fast Json use the utf-8 character set by default to code, and you can add the relevant definitions in the Application configuration if you need to modify it.
 
 ## 例子 Example
